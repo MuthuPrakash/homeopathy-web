@@ -24,16 +24,19 @@ export default class ContactUs extends Component {
                     <Col lg={5}>
                         <div className='contactInfoSection'>
                             <div className='contactDescription align-center-mobile'>
-                                If you have questions or special inquiries, you're welcome to contact me or fill out this form
+                            Call for a free 15 minute phone consultation with Dr. Shabana for new patients. Find out how Dr. Shabana Babulal can help you
                         </div>
                             <div className='contactTitle align-center-mobile'>
-                                Phuong Tran-le
+                                Dr. Shabana Babulal
                         </div>
                             <div className='contactInformation align-center-mobile'>
                                 <span>Tel: 1234567890</span>
                             </div>
                             <div className='contactInformation align-center-mobile'>
-                                <span>Email: info@scraft.com</span>
+                                <span>Email: info@drshabana.com</span>
+                            </div>
+                            <div className='contactInformation align-center-mobile'>
+                                <span>2550 Chain bridge loop, Vienna, VA</span>
                             </div>
                         </div>
                     </Col>

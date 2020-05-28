@@ -32,6 +32,10 @@
     width: 80%;
 }
 
+.aboutInfoFullWidth{
+    padding-top: 30px !important;
+}
+
 .aboutWrapper{
     padding-bottom: 75px;
 }
@@ -80,4 +84,12 @@
   and (max-device-width: 812px) 
   and (orientation: landscape) { 
 
+}
+
+/* ----------- Desktop ----------- */
+
+@media only screen and (min-device-width: 813px) {
+    .aboutInfoFullWidth{
+        padding-left: 14% !important;
+    }
 }

@@ -9,7 +9,7 @@ import About from './pages/About';
 import { Route, BrowserRouter } from 'react-router-dom';
 import { Container, Row, Col, Navbar, Nav, FormControl, Button } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from './assets/logo/scraft_freesketch_200x50.png'; // with import
+import logo from './assets/logo/shabana_logo_cropped.jpg'; // with import
 import instagram_icon_footer from './assets/banner/instagram_icon_footer.jpg';
 import facebook_icon_footer from './assets/banner/facebook_icon_footer.jpg';
 import email_subscribe_icon_footer from './assets/banner/email_subscribe_icon_footer.png';

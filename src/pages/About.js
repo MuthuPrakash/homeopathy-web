@@ -16,7 +16,7 @@ export default class About extends Component {
                     <Col lg={12}>
                         <div className='aboutHeader'>
                             <span>
-                                A Story of Freshness
+                                HOMEOPATHY AND ME
                             </span>
                         </div>
                     </Col>
@@ -31,10 +31,25 @@ export default class About extends Component {
                     </Col>
                     <Col lg={6}>
                         <div className='aboutTitle align-center-mobile'>
-                            Meet Alison
+                            MEET SHABANA
                         </div>
                         <div className='aboutDescription align-center-mobile'>
-                            This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.
+                            My studies still continue. Even as a nurse I had always had my hand in natural medicine. When the kids would get sick, it wasn't Tylenol that I would grab but a homeopathic remedy which I found to work quicker and more effectively for the ailments at hand. Because I was able to take care of my own with remedies, I avoided many visits to the pediatrician. I have always had a special interest in the health and welfare of babies and children. Treating a child using a homeopathic remedy can truly assist in building a stronger immune system.
+                        </div>
+                        <div className='aboutDescription align-center-mobile'>
+                            Aside from using homeopathy for the family; my 3 dogs, 3 cats, and a handful of chickens have all benefited from the use of  homeopathy. I found homeopathy to be the complete package for whatever the situation is. Along with improved health, homeopathy can make deep changes in a person. I am honored to be able to practice this art of medicine and I look forward in passing this  gift along to you!
+                        </div>
+                    </Col>
+                </Row>
+
+                <Row className='rowFlex'>
+                    <Col lg={12} className='aboutInfoFullWidth'>
+
+                        <div className='aboutTitle align-center-mobile'>
+                            Nursing Background
+                        </div>
+                        <div className='aboutDescription align-center-mobile'>
+                            I have always had a passion for aiding people and animals alike in a healthcare setting. I graduated from Shenandoah University in 1987 with my degree in nursing, and thus started my career in healthcare. I loved it! I worked in many different hospitals across New England, starting out in Boston and ending up in Maryland. As a float pool nurse I worked in a wide variety of  settings, my favorite area of specialty being the newborn nursery and Pediatrics. I had learned a lot about people and a lot about healthcare!
                         </div>
                     </Col>
                 </Row>

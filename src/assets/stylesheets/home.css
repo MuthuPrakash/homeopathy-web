@@ -32,26 +32,26 @@
     .ourFavoritesHeader {
         font-size: 30px;
     }
-    .weddingInvColl, .giftPaintingsColl {
+    .collOneColumn, .collTwoCol {
         text-align: left;
         padding-bottom: 20px;
     }
-    .weddingInvRow, .giftPaintingsRow {
+    .collOneRow, .collTwoRow {
         padding-bottom: 40px;
     }
-    .giftPaintingsRow {
+    .collTwoRow {
         display: flex;
     }
 
-    .giftPaintingsCollBannerWrapper{
+    .collTwoColBannerWrapper{
         order: 2;
     }
 
-    .giftPaintingsColl{
+    .collTwoCol{
         order: 1;
     }
 
-    .weddingInvCollBannerImage, .giftPaintingsCollBannerImage {
+    .collOneColumnBannerImage, .collTwoColBannerImage {
         width: 100%;
     }
 }
@@ -92,7 +92,7 @@
         position: absolute;
         top: 200px;
         left: 420px;
-        width: 690px;
+        width: 800px;
     }
     div.bannerHoverTitle {
         font-size: 69px;
@@ -108,11 +108,21 @@
     .ourFavoritesHeader {
         font-size: 48px;
     }
-    .weddingInvColl {
-        text-align: right;
+    .collOneColumn {
+        text-align: center;
+        padding-left: 100px;
     }
-    .weddingInvCollBannerImage, .giftPaintingsCollBannerImage {
+
+    .collTwoCol {
+        text-align: center;
+        padding-right: 100px;
+    }
+
+    .collOneColumnBannerImage, .collTwoColBannerImage {
         width: 85%;
+    }
+    .homeBannerImg {
+        width: 950px;
     }
 }
 
@@ -125,6 +135,7 @@
 div.bannerHoverTitle {
     font-family: lulo-clean-w01-one-bold;
     font-weight: bolder;
+    text-transform: uppercase;
 }
 
 div.bannerHoverSubtitle {
@@ -146,23 +157,24 @@ div.bannerHoverSubtitle {
     font-weight: bolder;
 }
 
-.weddingInvRow {
+.collOneRow {
     display: flex !important;
 }
 
-.weddingInvColl {
+.collOneColumn {
     padding-top: 6%;
 }
 
-.weddingInvCollTitle {
+.collOneColumnTitle {
     font: normal normal normal 22px/1.4em lulo-clean-w01-one-bold, questrial, sans-serif;
     color: #424242;
     letter-spacing: 0em;
     min-height: 50px;
     pointer-events: none;
+    text-transform: uppercase;
 }
 
-.weddingInvCollSubTitle {
+.collOneColumnSubTitle {
     letter-spacing: 0.05em;
     line-height: 1.8em;
     min-height: 50px;
@@ -171,34 +183,35 @@ div.bannerHoverSubtitle {
     color: #424242;
 }
 
-.weddingInvCollButton {
+.collOneColumnButton {
     width: 150px;
     height: 50px;
     font-size: 20px;
 }
 
-.weddingInvCollBannerImage {
+.collOneColumnBannerImage {
     max-height: 420px;
 }
 
-.giftPaintingsRow {
+.collTwoRow {
     display: flex !important;
 }
 
-.giftPaintingsColl {
+.collTwoCol {
     padding-top: 6%;
 }
 
-.giftPaintingsCollTitle {
+.collTwoColTitle {
     font: normal normal normal 22px/1.4em lulo-clean-w01-one-bold, questrial, sans-serif;
     color: #424242;
     letter-spacing: 0em;
     min-height: 50px;
     pointer-events: none;
     text-align: left;
+    text-transform: uppercase;
 }
 
-.giftPaintingsCollSubTitle {
+.collTwoColSubTitle {
     letter-spacing: 0.05em;
     line-height: 1.8em;
     text-align: left;
@@ -208,20 +221,20 @@ div.bannerHoverSubtitle {
     color: #424242;
 }
 
-.giftPaintingsCollButtonDiv {
+.collTwoColButtonDiv {
     text-align: left;
 }
 
-.giftPaintingsCollButton {
+.collTwoColButton {
     width: 150px;
     height: 50px;
     font-size: 20px;
 }
 
-.giftPaintingsCollBanner {
+.collTwoColBanner {
     text-align: right;
 }
 
-.giftPaintingsCollBannerImage {
+.collTwoColBannerImage {
     max-height: 420px;
 }
