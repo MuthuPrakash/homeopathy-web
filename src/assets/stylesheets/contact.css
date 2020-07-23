@@ -52,6 +52,17 @@
     font-size: 20px;
 }
 
+/* ----------- Desktop ----------- */
+
+@media only screen and (min-device-width: 813px) {
+    .mapsEmbedIframe{
+        width: 80%;
+        height: 350px;
+    }
+
+}
+
+
 /* ----------- iPhone X ----------- */
 
 /* Portrait and Landscape */
@@ -77,6 +88,11 @@
 
     .contactInfoSection, .contactFeedbackSection{
         padding: 10px;
+    }
+
+    .mapsEmbedIframe{
+        width: 100%;
+        height: 350px;
     }
 }
 

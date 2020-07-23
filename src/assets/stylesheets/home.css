@@ -191,6 +191,7 @@ div.bannerHoverSubtitle {
 
 .collOneColumnBannerImage {
     max-height: 420px;
+    min-height: 300px;
 }
 
 .collTwoRow {
@@ -237,4 +238,5 @@ div.bannerHoverSubtitle {
 
 .collTwoColBannerImage {
     max-height: 420px;
+    min-height: 300px;
 }
