@@ -2,11 +2,11 @@
     display: flex !important;
 }
 
-.shippingInfoSection{
+.storePolicyInfoSection{
     padding: 2% 15%;
 }
 
-.shippingHeader{
+.storePolicyHeader{
     color: #576855;
     letter-spacing: 0.07em;
     line-height: 1.3em;
@@ -17,7 +17,7 @@
     padding-bottom: 20px;
 }
 
-.shippingTitle{
+.storePolicyTitle{
     letter-spacing: 0.2em;
     color: #576855;
     line-height: 1.8em;
@@ -25,20 +25,29 @@
     text-transform: uppercase;
     padding: 50px 0px 30px 0px;
     font-weight: bolder;
+    text-align: center;
 }
 
-.shippingInformation{
+.storePolicyInformation{
     letter-spacing: 0.05em;
     line-height: 1.8em;
     font: normal normal normal 15px/1.4em questrial,sans-serif;
     color: #424242;
+    text-align: center;
 
 }
 
-.shippingWrapper{
+.storePolicyWrapper{
     padding-bottom: 75px;
 }
 
+.storePolicyHeaderDescription{
+    letter-spacing: 0.05em;
+    line-height: 1.8em;
+    font: normal normal normal 15px/1.4em questrial,sans-serif;
+    color: #424242;
+    text-align: center;
+}
 /* ----------- iPhone X ----------- */
 
 /* Portrait and Landscape */
@@ -49,7 +58,7 @@
         margin-right: 5px !important;
     }
 
-    .shippingHeader{
+    .storePolicyHeader{
         font-size: 25px;
         padding-bottom: 30px;
     }
@@ -58,7 +67,7 @@
         text-align: center;
     }
 
-    .shippingInfoSection{
+    .storePolicyInfoSection{
         padding: 10px;
     }
 }

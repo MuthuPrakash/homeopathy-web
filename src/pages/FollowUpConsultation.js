@@ -1,51 +1,62 @@
 import React, { Component } from 'react';
 import { Row, Col, Form, Button } from 'react-bootstrap';
-import '../assets/stylesheets/contact.css'
+import '../assets/stylesheets/individualServices.css'
+import followup_consultation from './../assets/banner/followup_consultation.png'
 
-export default class ContactUs extends Component {
+export default class PhoneConsultationService extends Component {
     // constructor(props) {
     //     super(props);
     // }
 
     render() {
         return (
-            <Row className='contactWrapper'>
+            <Row className='serviceWrapper'>
                 <Row>
                     <Col lg={12}>
-                        <div className='contactHeader'>
+                        <div className='serviceHeader'>
                             <span>
-                                Let's Talk
+                            Follow Up Consultations
+                            </span>
+                        </div>
+                        <div className='serviceHeaderDescription'>
+                            <span>
+                            Tell me how you're doing!
+                            </span>
+                        </div>
+                        <div className='serviceHeaderPrice'>
+                            <span>
+                                1 hour | $100
                             </span>
                         </div>
                     </Col>
                 </Row>
 
                 <Row className='rowFlex'>
-                    <Col lg={5}>
-                        <div className='contactInfoSection'>
-                            <div className='contactDescription align-center-mobile'>
+                    <Col lg={6}>
+                        <div className='serviceInfoSection'>
+                            <div className='serviceDescription align-center-mobile'>
                                 Call for a free 15 minute phone consultation with Dr. Shabana for new patients. Find out how Dr. Shabana Babulal can help you
                         </div>
-                            <div className='contactTitle align-center-mobile'>
+                            <div className='serviceTitle align-center-mobile'>
                                 Dr. Shabana Babulal
                         </div>
-                            <div className='contactInformation align-center-mobile'>
+                            <div className='serviceInformation align-center-mobile'>
                                 <span>Tel: 1234567890</span>
                             </div>
-                            <div className='contactInformation align-center-mobile'>
+                            <div className='serviceInformation align-center-mobile'>
                                 <span>Email: info@drshabana.com</span>
                             </div>
-                            <div className='contactInformation align-center-mobile'>
+                            <div className='serviceInformation align-center-mobile'>
                                 <span>2550 Chain bridge loop, Vienna, VA</span>
                             </div>
                         </div>
                     </Col>
-                    <Col lg={7}>
-                        <div className='mapsEmbed'>
-                            <iframe className='mapsEmbedIframe' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.2530497657267!2d-77.27997238500464!3d38.89532825467186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b64bdcf9ea63f5%3A0xd69e61116a09585b!2s2550%20Chain%20Bridge%20Loop%2C%20Vienna%2C%20VA%2022181!5e0!3m2!1sen!2sus!4v1591056721036!5m2!1sen!2sus" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <Col lg={6}>
+                        <div className='serviceBanner'>
+                            <img className='serviceBannerImage' src={followup_consultation} ></img>
                         </div>
 {/*                         
-                        <div className='contactFeedbackSection'>
+                        <div className='serviceFeedbackSection'>
                             <Form>
                                 <Form.Group controlId="formGroupFullName">
                                     <Form.Label>Enter Your Name*</Form.Label>
@@ -63,8 +74,8 @@ export default class ContactUs extends Component {
                                     <Form.Label>Enter Your Message*</Form.Label>
                                     <Form.Control required as="textarea" rows="3" placeholder="Write your request" />
                                 </Form.Group>
-                                <div className='contactFeedbackButtonWrapper'>
-                                    <Button variant="primary" type="submit" className='contactFeedbackButton' variant="dark">
+                                <div className='serviceFeedbackButtonWrapper'>
+                                    <Button variant="primary" type="submit" className='serviceFeedbackButton' variant="dark">
                                         SUBMIT
                                     </Button>
                                 </div>

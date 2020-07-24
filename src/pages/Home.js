@@ -20,9 +20,9 @@ export default class Home extends Component {
                     <Col lg={12}>
                         <div className='homeBanner'><img className='homeBannerImg' src={home_banner} alt='Home banner'></img></div>
                         <div className='bannerHover'>
-                            <div className='bannerHoverTitle'><span>JUST LIKE NATURE INTENDED</span></div>
-                            <div className='bannerHoverSubtitle'><span>Paper Redefined</span></div>
-                            <div className='bannerHoverButtonDiv'><Button className='bannerHoverButton' variant="dark">Shop All</Button>{' '}</div>
+                            <div className='bannerHoverTitle'><span>Health starts here</span></div>
+                            <div className='bannerHoverSubtitle'><span>Banner description</span></div>
+                            {/* <div className='bannerHoverButtonDiv'><Button className='bannerHoverButton' variant="dark">Shop All</Button>{' '}</div> */}
                         </div>
                     </Col>
                 </Row>
@@ -30,67 +30,66 @@ export default class Home extends Component {
                     <Row>
                         <Col lg={12}>
                             <div className='ourFavoritesHeader'>
-                                <span>OUR FAVORITES</span>
+                                <span>WHY HOMEOPATHY</span>
                             </div>
                         </Col>
                     </Row>
 
 {/* Collection 1 Information */}
-                    <Row className='weddingInvRow'>
-                        <Col lg={6} className='weddingInvColl'>
-                            <div className='weddingInvCollTitle'>
-                                <span>WEDDING INVITATIONS</span>
+                    <Row className='collOneRow'>
+                        <Col lg={6} className='collOneColumn'>
+                            <div className='collOneColumnTitle'>
+                                <span>Common Acute Ailments</span>
                             </div>
-                            <div className='weddingInvCollSubTitle'>
-                                <span>shop various collection of wedding invitations here</span>
+                            <div className='collOneColumnSubTitle'>
+                                <span>Homeopathy is very effective in helping the body move through an acute illness faster if not eliminating it before it takes hold of the body. Acute illnesses such as colds, flus, ear infections, sore throats, upset stomachs, sprains, fractures, and even broken bones are some examples of what can be helped with a  homeopathic remedy.</span>
                             </div>
-                            <div>
-                                <div className='weddingInvCollButtonDiv'><Button className='weddingInvCollButton' variant="dark">Shop Invitatios</Button>{' '}</div>
-                            </div>
+                            {/* <div>
+                                <div className='collOneColumnButtonDiv'><Button className='collOneColumnButton' variant="dark">Shop Invitatios</Button>{' '}</div>
+                            </div> */}
                         </Col>
                         <Col lg={6} >
-                            <div className='weddingInvCollBanner'><img className='weddingInvCollBannerImage' src={ourFavorites_banner} alt='Wedding Invitation collection'></img></div>
+                            <div className='collOneColumnBanner'><img className='collOneColumnBannerImage' src={ourFavorites_banner} alt='Wedding Invitation collection'></img></div>
                         </Col>
                     </Row>
 
 {/* Collection 2 Information */}
-                    <Row className='giftPaintingsRow'>
-                        <Col lg={6} className='giftPaintingsCollBannerWrapper'>
-                            <div className='giftPaintingsCollBanner'><img className='giftPaintingsCollBannerImage' src={paintings_banner} alt='Wedding Invitation collection'></img></div>
+                    <Row className='collTwoRow'>
+                        <Col lg={6} className='collTwoColBannerWrapper'>
+                            <div className='collTwoColBanner'><img className='collTwoColBannerImage' src={paintings_banner} alt='Wedding Invitation collection'></img></div>
                         </Col>
 
-                        <Col lg={6} className='giftPaintingsColl'>
-                            <div className='giftPaintingsCollTitle'>
-                                <span>GIFT PAINTINGS</span>
+                        <Col lg={6} className='collTwoCol'>
+                            <div className='collTwoColTitle'>
+                                <span>Drug free</span>
                             </div>
-                            <div className='giftPaintingsCollSubTitle'>
-                                <span>shop various collection of Gift Paintings here</span>
+                            <div className='collTwoColSubTitle'>
+                                <span>All homeopathic remedies are made from natural substances. They are non-addicting and have no side effects. Remedies are safe to use for everyone, from babies to the elderly. Homeopathy can improve your health to the point that you may be able to eliminate medication, with doctor's approval.</span>
                             </div>
-                            <div>
-                                <div className='giftPaintingsCollButtonDiv'><Button className='giftPaintingsCollButton' variant="dark">Shop Gifts</Button>{' '}</div>
-                            </div>
+                            {/* <div>
+                                <div className='collTwoColButtonDiv'><Button className='collTwoColButton' variant="dark">Shop Gifts</Button>{' '}</div>
+                            </div> */}
                         </Col>
                     </Row>
 
 {/* Collection 3 Information */}
-                    <Row className='weddingInvRow'>
-                        <Col lg={6} className='weddingInvColl'>
-                            <div className='weddingInvCollTitle'>
-                                <span>BACKDROPS & PROPS</span>
+                    <Row className='collOneRow'>
+                        <Col lg={6} className='collOneColumn'>
+                            <div className='collOneColumnTitle'>
+                                <span>FDA approved</span>
                             </div>
-                            <div className='weddingInvCollSubTitle'>
-                                <span>shop various collection of backdrops and props here</span>
+                            <div className='collOneColumnSubTitle'>
+                                <span>All homeopathic remedies are manufactured in FDA approved pharmacies. All homeopathic remedies are FDA approved</span>
                             </div>
-                            <div>
-                                <div className='weddingInvCollButtonDiv'><Button className='weddingInvCollButton' variant="dark">Shop Backdrops</Button>{' '}</div>
-                            </div>
+                            {/* <div>
+                                <div className='collOneColumnButtonDiv'><Button className='collOneColumnButton' variant="dark">Shop Backdrops</Button>{' '}</div>
+                            </div> */}
                         </Col>
                         <Col lg={6}>
-                            <div className='weddingInvCollBanner'><img className='weddingInvCollBannerImage' src={props_banner} alt='Wedding Invitation collection'></img></div>
+                            <div className='collOneColumnBanner'><img className='collOneColumnBannerImage' src={props_banner} alt='Wedding Invitation collection'></img></div>
                         </Col>
                     </Row>
                 </Row>
-
             </Row>
         )
     }

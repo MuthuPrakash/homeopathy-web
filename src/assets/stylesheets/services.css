@@ -2,11 +2,11 @@
     display: flex !important;
 }
 
-.storePolicyInfoSection{
+.shippingInfoSection{
     padding: 2% 15%;
 }
 
-.storePolicyHeader{
+.shippingHeader{
     color: #576855;
     letter-spacing: 0.07em;
     line-height: 1.3em;
@@ -17,7 +17,15 @@
     padding-bottom: 20px;
 }
 
-.storePolicyTitle{
+.shippingHeaderDescription{
+    letter-spacing: 0.05em;
+    line-height: 1.8em;
+    font: normal normal normal 15px/1.4em questrial,sans-serif;
+    color: #424242;
+    text-align: center;
+}
+
+.shippingTitle{
     letter-spacing: 0.2em;
     color: #576855;
     line-height: 1.8em;
@@ -27,7 +35,7 @@
     font-weight: bolder;
 }
 
-.storePolicyInformation{
+.shippingInformation{
     letter-spacing: 0.05em;
     line-height: 1.8em;
     font: normal normal normal 15px/1.4em questrial,sans-serif;
@@ -35,8 +43,37 @@
 
 }
 
-.storePolicyWrapper{
+.shippingWrapper{
     padding-bottom: 75px;
+}
+
+.servicesIconContainer{
+    
+    padding-top: 40px;
+}
+
+.servicesIcon{
+    width:150px;
+    height: 120px;
+}
+
+.servicesInfoWrapper{
+    padding: 5px 0px 20px 0px;
+}
+
+.shippingInformationButtonContainer{
+    padding: 20px 0 0 0;
+}
+
+.shippingInformationHoverButton{
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.shippingTitle a{
+    color: #576855 !important;
 }
 
 /* ----------- iPhone X ----------- */
@@ -49,7 +86,7 @@
         margin-right: 5px !important;
     }
 
-    .storePolicyHeader{
+    .shippingHeader{
         font-size: 25px;
         padding-bottom: 30px;
     }
@@ -58,7 +95,7 @@
         text-align: center;
     }
 
-    .storePolicyInfoSection{
+    .shippingInfoSection{
         padding: 10px;
     }
 }
