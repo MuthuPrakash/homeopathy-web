@@ -2,11 +2,16 @@
     display: flex !important;
 }
 
-.shippingInfoSection{
-    padding: 2% 15%;
+.serviceInfoSection{
+    padding-left: 40%;
+    padding-top: 15%;
 }
 
-.shippingHeader{
+.serviceFeedbackSection{
+    padding-right: 30%;
+    padding-left: 10%;
+}
+.serviceHeader{
     color: #576855;
     letter-spacing: 0.07em;
     line-height: 1.3em;
@@ -17,25 +22,35 @@
     padding-bottom: 20px;
 }
 
-.shippingHeaderDescription{
+.serviceHeaderDescription{
     letter-spacing: 0.05em;
     line-height: 1.8em;
     font: normal normal normal 15px/1.4em questrial,sans-serif;
     color: #424242;
     text-align: center;
+    padding-bottom: 20px;
 }
 
-.shippingTitle{
+.serviceHeaderPrice{
+    letter-spacing: 0.05em;
+    line-height: 1.8em;
+    font: normal normal normal 18px/1.4em questrial,sans-serif;
+    font-weight: bolder;
+    color: #424242;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.serviceTitle{
     letter-spacing: 0.2em;
     color: #576855;
     line-height: 1.8em;
     font: normal normal normal 15px/1.4em questrial,sans-serif;
     text-transform: uppercase;
     padding: 50px 0px 30px 0px;
-    font-weight: bolder;
 }
 
-.shippingInformation{
+.serviceDescription, .serviceInformation{
     letter-spacing: 0.05em;
     line-height: 1.8em;
     font: normal normal normal 15px/1.4em questrial,sans-serif;
@@ -43,38 +58,29 @@
 
 }
 
-.shippingWrapper{
+.serviceWrapper{
     padding-bottom: 75px;
 }
 
-.servicesIconContainer{
-    
-    padding-top: 40px;
+.serviceFeedbackButtonWrapper{
+    text-align: center;
 }
-
-.servicesIcon{
-    width:150px;
-    height: 120px;
-}
-
-.servicesInfoWrapper{
-    padding: 5px 0px 20px 0px;
-}
-
-.shippingInformationButtonContainer{
-    padding: 20px 0 0 0;
-}
-
-.shippingInformationHoverButton{
-    width: 130px;
-    height: 40px;
+.serviceFeedbackButton{
+    width: 150px;
+    height: 50px;
     font-size: 20px;
-    color: #ffffff;
 }
 
-.shippingTitle a{
-    color: #576855 !important;
+/* ----------- Desktop ----------- */
+
+@media only screen and (min-device-width: 813px) {
+    .serviceBannerImage{
+        width: 80%;
+        height: 350px;
+    }
+
 }
+
 
 /* ----------- iPhone X ----------- */
 
@@ -86,7 +92,7 @@
         margin-right: 5px !important;
     }
 
-    .shippingHeader{
+    .serviceHeader{
         font-size: 25px;
         padding-bottom: 30px;
     }
@@ -95,8 +101,17 @@
         text-align: center;
     }
 
-    .shippingInfoSection{
+    .serviceDescription{
+        width: 100%;
+    }
+
+    .serviceInfoSection, .serviceFeedbackSection{
         padding: 10px;
+    }
+
+    .serviceBannerImage{
+        width: 100%;
+        height: 350px;
     }
 }
 

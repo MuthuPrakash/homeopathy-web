@@ -8,8 +8,11 @@ import Products from './pages/Products';
 import About from './pages/About';
 import Services from './pages/Services';
 import HealthForms from './pages/HealthForms';
+import PhoneConsultationService from './pages/PhoneConsultation';
+import InitialConsultationService from './pages/InitialConsultation';
+import FollowUpConsultationService from './pages/FollowUpConsultation';
 import { Route, BrowserRouter } from 'react-router-dom';
-import { Container, Row, Col, Navbar, Nav, FormControl, Button } from 'react-bootstrap'
+import { Container, Row, Col, Navbar, Nav, NavDropdown, FormControl, Button } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './assets/logo/shabana_logo_cropped.jpg'; // with import
 import instagram_icon_footer from './assets/banner/instagram_icon_footer.jpg';
@@ -52,7 +55,14 @@ export default class Main extends Component {
                                         {/* <Nav.Link href="/products?cat=wi">INVITATION</Nav.Link>
                                         <Nav.Link href="/products?cat=gifts">GIFTS</Nav.Link>
                                         <Nav.Link href="/products?cat=backdrops">BACKDROPS</Nav.Link> */}
-                                        <Nav.Link href="/services">SERVICES</Nav.Link>
+                                        {/* <Nav.Link href="/services">SERVICES</Nav.Link> */}
+                                        <NavDropdown title="SERVICES" id="basic-nav-dropdown">
+                                            <NavDropdown.Item href="/services">SERVICES HOME</NavDropdown.Item>
+                                            <NavDropdown.Divider />
+                                            <NavDropdown.Item href="/phoneconsultationservice">Phone Consultation</NavDropdown.Item>
+                                            <NavDropdown.Item href="/initialconsultationservice">Initial Consultation</NavDropdown.Item>
+                                            <NavDropdown.Item href="/followupconsultationservice">Follow Up Consultations</NavDropdown.Item>
+                                        </NavDropdown>
                                         <Nav.Link href="/forms">HEALTH FORMS</Nav.Link>
                                         <Nav.Link href="/about">ABOUT</Nav.Link>
                                         <Nav.Link href="/contact">CONTACT</Nav.Link>
@@ -76,6 +86,9 @@ export default class Main extends Component {
                         <Route path="/faq" component={FAQ} />
                         <Route path='/services' component={Services} />
                         <Route path='/forms' component={HealthForms} />
+                        <Route path='/phoneconsultationservice' component={PhoneConsultationService} />
+                        <Route path='/initialconsultationservice' component={InitialConsultationService} />
+                        <Route path='/followupconsultationservice' component={FollowUpConsultationService} />
                     </Row>
 
                     {/* Footer Information */}
